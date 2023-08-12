@@ -8,8 +8,8 @@ function addTwoNums(a,b) {
             console.log(a + b)
         }
     } catch(err) {
-        console.log(err)
+        console.log("Error!", err)
     }
 }
-
-addTwoNums (5,"5")
+addTwoNums(5, "5")
+console.log("It still works")

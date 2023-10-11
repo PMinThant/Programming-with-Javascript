@@ -1,0 +1,1 @@
+functon substract(a,b){return a- b;} expect(substract(10,4)).toBe(6);
